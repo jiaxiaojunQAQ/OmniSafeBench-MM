@@ -1,9 +1,9 @@
 # OmniSafeBench-MM
 A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack–Defense Evaluation
 
-## Attack Methods
+## Integrated Attack Methods
 
-## Defense Methods
+## Integrated Defense Methods
 | No. | Title                                                                                                                                                               | Type | Venue | Paper     | Code      |
 |:---|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----:|:---:|:-----------|:-----------|
 | 1  | Jailguard: A universal detection framework for llm prompt-based attacks                                                                                             |   1   | arXiv | [paper link](https://arxiv.org/pdf/2312.10766) |    [code link](https://github.com/shiningrain/JailGuard)     |
