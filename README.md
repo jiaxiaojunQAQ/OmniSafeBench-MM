@@ -1,2 +1,22 @@
 # OmniSafeBench-MM
 A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack–Defense Evaluation
+
+## Attack Methods
+
+## Defense Methods
+| No. | Title                                                                                                                                                               | Type | Venue | Paper     | Code      |
+|:---|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----:|:---:|:-----------|:-----------|
+| 1  | Jailguard: A universal detection framework for llm prompt-based attacks                                                                                             |   1   | arXiv | [paper link](https://arxiv.org/pdf/2312.10766) |    [code link](https://github.com/shiningrain/JailGuard)     |
+| 2  | Mllm-protector: Ensuring mllm's safety without hurting performance                                                                                                  |   1   | arXiv | [paper link](https://arxiv.org/pdf/2401.02906) | [code link](https://github.com/pipilurj/MLLM-protector) |
+| 3  | Eyes closed, safety on: Protecting multimodal llms via image-to-text transformation                                                                                 |   1   | ECCV 2024 | [paper link](https://arxiv.org/pdf/2403.09572) | [code link](https://gyhdog99.github.io/projects/ecso/) |
+| 4  | Shieldlm: Empowering llms as aligned, customizable and explainable safety detectors                                                                                 |   1   | EMNLP 2024 | [paper link](https://arxiv.org/pdf/2402.16444) | [code link](https://github.com/thu-coai/ShieldLM) |
+| 5  | Adashield: Safeguarding multimodal large language models from structure-based attack via adaptive shield prompting                                                  |   1   | ECCV 2024 | [paper link](https://link.springer.com/content/pdf/10.1007/978-3-031-72661-3_5.pdf) | [code link](https://github.com/SaFoLab-WISC/AdaShield)|
+| 6  | Uniguard: Towards universal safety guardrails for jailbreak attacks on multimodal large language models                                                             |   1   | ECCV 2024 | [paper link](https://arxiv.org/pdf/2411.01703) | [code link](https://anonymous.4open.science/r/UniGuard/README.md) |
+| 7  | Defending LVLMs Against Vision Attacks Through Partial-Perception Supervision                                                                                       |   1   | ICML 2025 | [paper link](https://arxiv.org/pdf/2412.12722) | [code link](https://github.com/tools-only/DPS) |
+| 8  | Cross-modality Information Check for Detecting Jailbreaking in Multimodal Large Language Models                                                                     |   1   | EMNLP 2024 | [paper link](https://arxiv.org/pdf/2407.21659) | [code link](https://github.com/PandragonXIII/CIDER) |
+| 9  | Guardreasoner-vl: Safeguarding vlms via reinforced reasoning                                                                                                        |   1   | ICML 2025 | [paper link](https://arxiv.org/pdf/2505.11049) | [code link](https://github.com/yueliu1999/GuardReasoner-VL/) |
+| 10 | Llama Guard 4                                                                                                                                                       |   1   | None |  [document link](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-4/) | [model link](https://huggingface.co/meta-llama/Llama-Guard-4-12B) |
+| 11 | QGuard: Question-based Zero-shot Guard for Multi-modal LLM Safety                                                                                                   |   1   | ICML 2025 | [paper link](https://arxiv.org/pdf/2506.12299) | [code link](https://github.com/taegyeong-lee/QGuard-Question-based-Zero-shot-Guard-for-Multi-modal-LLM-Safety) |
+| 12 | Llavaguard: Vlm-based safeguard for vision dataset curation and safety assessment                                                                                   |   1   | CVPR 2024 | [paper link](https://openaccess.thecvf.com/content/CVPR2024W/ReGenAI/papers/Helff_LLAVAGUARD_VLM-based_Safeguard_for_Vision_Dataset_Curation_and_Safety_Assessment_CVPRW_2024_paper.pdf) | [code link](https://github.com/ml-research/LlavaGuard) |
+
+> More methods are coming soon!!
