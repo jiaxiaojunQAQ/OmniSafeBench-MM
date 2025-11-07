@@ -1,6 +1,20 @@
 # OmniSafeBench-MM
 A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack–Defense Evaluation
 
+
+## ✨ Contributors
+
+
+*   **Dataset Curation**:
+    *   [Jie Liao](https://github.com/leo0481)
+*   **Attack Method Integration**:
+    *   [Guo Qi](https://github.com/gq-max)
+*   **Defense Method Integration**:
+    *   [Teng Ma](https://github.com/MaTengSYSU)
+
+
+
+
 ## 🗡️ Integrated Attack Methods
 | Name | Full paper title | Paper | Code | Classification |
 |------|------------------|-------|------|----------------|
