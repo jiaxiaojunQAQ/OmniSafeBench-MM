@@ -51,5 +51,9 @@ Our code will coming soon!✨✨
 | Llama-Guard-4 | Llama Guard 4 | Model Card | [document link](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-4/) | [model link](https://huggingface.co/meta-llama/Llama-Guard-4-12B) | Off-Model — Input pre-processing |
 | QGuard | QGuard: Question-based Zero-shot Guard for Multi-modal LLM Safety | arXiv | [paper link](https://arxiv.org/abs/2506.12299) | [code link](https://github.com/taegyeong-lee/QGuard-Question-based-Zero-shot-Guard-for-Multi-modal-LLM-Safety) | Off-Model — Input pre-processing |
 | LlavaGuard | LlavaGuard: An Open VLM-based Framework for Safeguarding Vision Datasets and Models | ICML 2025 | [paper link](https://arxiv.org/abs/2406.05113) | [code link](https://github.com/ml-research/LlavaGuard) | Off-Model — Input pre-processing |
+| Llama-Guard-3 | Llama Guard 3 | Model Card | [document link](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-3/) | [model link](https://huggingface.co/meta-llama/Llama-Guard-3-8B) | Off-Model — Output post-processing |
+| HiddenDetect | HiddenDetect: Detecting Jailbreak Attacks against Multimodal Large Language Models via Monitoring Hidden States | ACL 2025 | [paper link](https://arxiv.org/abs/2502.14744) | [code link](https://github.com/leigest519/HiddenDetect) | On-Model — Inference process intervention |
+| CoCA | CoCA: Regaining Safety-awareness of Multimodal Large Language Models with Constitutional Calibration | COLM 2024 | [paper link](https://arxiv.org/abs/2409.11365) | Null | On-Model — Inference process intervention |
+| VLGuard | Safety Fine-Tuning at (Almost) No Cost: A Baseline for Vision Large Language Models | ICML 2024 | [paper link](https://arxiv.org/abs/2402.02207) | [code link](https://github.com/ys-zong/VLGuard) | On-Model — Intrinsic model alignment |
 
 > More methods are coming soon!!
