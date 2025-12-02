@@ -13,7 +13,7 @@
 
 
 ## 📰 News 📰
-* ***[2024/02/06] 🚀 [Initial release of OmniSafeBench-MM with 13 attack methods and 15 defense strategies]()*** 🚀
+* ***[2025/12/06] 🚀 [Initial release of OmniSafeBench-MM with 13 attack methods and 15 defense strategies]()*** 🚀
 
 
 
