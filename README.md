@@ -13,9 +13,7 @@
 
 
 ## 📰 News 📰
-* ***[2025/12/06] 🚀 [Initial release of OmniSafeBench-MM with 13 attack methods and 15 defense strategies]()*** 🚀
-
-
+* ***[2025/12/10] 🚀 [Initial release of OmniSafeBench-MM with 13 attack methods and 15 defense strategies]()*** 🚀
 
 
 ## 🗡️ What is OmniSafeBench-MM 🛡️
@@ -33,6 +31,7 @@ OmniSafeBench-MM is a unified benchmark and open-source toolbox for evaluating m
 **Overview of OmniSafeBench-MM**.
 The benchmark unifies multi-modal jailbreak attack–defense evaluation, 13 attack and 15 defense methods, and a three-dimensional scoring protocol measuring harmfulness, alignment, and detail.
 
+✨🤝 **We welcome collaborators to join our project! 📧 Contact: jiaxiaojunqaq@gmail.com**
 
 ## 🚀 Quick Start
 
