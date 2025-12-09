@@ -13,7 +13,10 @@
 
 
 ## 📰 News 📰
-* ***[2025/12/10] 🚀 [Initial release of OmniSafeBench-MM with 13 attack methods and 15 defense strategies]()*** 🚀
+* ***[2025/12/10] 🚀 Initial release of OmniSafeBench-MM with 13 attack methods and 15 defense strategies*** 🚀  
+  ➤ **Check out the paper:** [*OmniSafeBench-MM: A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack–Defense Evaluation*](http://arxiv.org/abs/2512.06589)
+
+
 
 
 ## 🗡️ What is OmniSafeBench-MM 🛡️
