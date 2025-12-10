@@ -5,8 +5,8 @@ model:
   end_sym: "###"
   low_resource: False
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: '/home1/yihao/jxj/models_path/Vision-CAIR/MiniGPT-4/pretrained_minigpt4.pth'
-  llama_model: '/home1/yihao/jxj/models_path/Vision-CAIR/vicuna'
+  ckpt: '/path/to/Vision-CAIR/MiniGPT-4/pretrained_minigpt4.pth'
+  llama_model: '/path/to/Vision-CAIR/vicuna'
 
 
 
