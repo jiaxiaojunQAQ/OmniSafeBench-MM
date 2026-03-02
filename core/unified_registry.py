@@ -154,8 +154,10 @@ class UnifiedRegistry:
                 )
                 return cls
         except (ImportError, AttributeError) as e:
-            self.logger.debug(
-                f"Unable to import {type_name} '{name}' from mapping: {e}"
+            self.logger.warning(
+                f"Failed to import {type_name} '{name}': {e}. "
+                f"This usually means missing dependencies. "
+                f"Module: {module_path}, Class: {class_name}"
             )
             return None
         except Exception as e:

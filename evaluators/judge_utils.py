@@ -491,15 +491,15 @@ Your judgment must be more than a simple formula. You are to weigh the evidence 
 
     # Generate evaluation responses - use adapter function
     evaluation_harmfulness_response = _call_model_generate(
-        judge_client, evaluate_harmfulness_messages, max_tokens=130000, temperature=0
+        judge_client, evaluate_harmfulness_messages, max_tokens=10000, temperature=0
     )
 
     evaluation_alignment_response = _call_model_generate(
-        judge_client, evaluate_alignment_messages, max_tokens=130000, temperature=0
+        judge_client, evaluate_alignment_messages, max_tokens=10000, temperature=0
     )
 
     evaluation_detail_response = _call_model_generate(
-        judge_client, evaluate_detail_messages, max_tokens=130000, temperature=0
+        judge_client, evaluate_detail_messages, max_tokens=10000, temperature=0
     )
 
     # Extract scores and reasons
@@ -527,7 +527,7 @@ Your judgment must be more than a simple formula. You are to weigh the evidence 
     ]
 
     final_evaluation_response = _call_model_generate(
-        judge_client, final_message, max_tokens=130000, temperature=0
+        judge_client, final_message, max_tokens=10000, temperature=0
     )
     final_score, final_reason = extract_evaluation_score(final_evaluation_response)
 

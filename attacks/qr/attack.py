@@ -14,6 +14,7 @@ from PIL import Image, ImageFont, ImageDraw
 import torch
 import threading
 import logging
+from concurrent.futures import ThreadPoolExecutor
 
 from core.data_formats import TestCase
 from core.base_classes import BaseAttack

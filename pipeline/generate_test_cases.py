@@ -96,6 +96,14 @@ class TestCaseGenerator(BasePipeline):
             attack_name, attack_config, output_image_dir=str(image_save_dir)
         )
 
+        if attack is None:
+            self.logger.error(
+                f"Attack method '{attack_name}' failed to initialize. "
+                f"This is likely due to missing dependencies or import errors. "
+                f"Check logs above for details. Skipping this attack."
+            )
+            return None
+
         test_case = attack.generate_test_case(
             original_prompt,
             image_path,
@@ -139,6 +147,14 @@ class TestCaseGenerator(BasePipeline):
             attack = UNIFIED_REGISTRY.create_attack(
                 attack_name, attack_config, output_image_dir=str(image_save_dir)
             )
+
+            if attack is None:
+                self.logger.error(
+                    f"Attack method '{attack_name}' failed to initialize. "
+                    f"This is likely due to missing dependencies or import errors. "
+                    f"Check logs above for details. Skipping this attack."
+                )
+                return []
 
             # Unified resource policy (single source of truth)
             policy = policy_for_test_case_generation(
@@ -359,6 +375,7 @@ class TestCaseGenerator(BasePipeline):
                         attack_name,
                         attack_config,
                         task_id,
+                        image_save_dir,
                         output_file_path,
                         expected_count,
                     )
@@ -415,6 +432,7 @@ class TestCaseGenerator(BasePipeline):
             attack_name,
             attack_config,
             task_id,
+            image_save_dir,
             output_file_path,
             expected_count,
         ) in pending_attacks_to_process:
